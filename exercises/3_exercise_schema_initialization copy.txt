@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------
+AUFGABE 1
+
+Die MongoDB-Shell erfordert keine Installation (ausser die Shell selbst).
+Der MongoDB-Treiber läuft nur, wenn die nötigen Abhängigkeiten wie Node.js und npm-Packages installiert sind.
+---------------------------------------------------------------------------------
+AUFGABE 2
+
+Falls eine Suchfeld implementiert werden soll, so würde ich den Titel eines Issues ebenfalls indexieren.
+Da der Endbenutzer anhand des Titels suchen wird.
+---------------------------------------------------------------------------------
