@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------
+AUFGABE 1
+
+Es wäre möglich, aber aus meiner Sicht nicht zu empfehlen. Denn man muss sich absolut sicher sein, dass die Transaktion erfolgreich ist.
+Am besten arbeitet man min dem Rückgabewert der Datenbank, da dies die endgültigten Werte sind.
+---------------------------------------------------------------------------------
+

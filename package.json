@@ -1,0 +1,25 @@
+{
+  "name": "mongodbscratch",
+  "version": "1.0.0",
+  "description": "Scratch project with MongoDB",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "nodemon -r esm src/index.mjs"
+  },
+  "dependencies": {
+    "mongodb": "^3.7.1",
+    "esm": "^3.2.25",
+    "lodash": "^4.17.21",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeroyegli/MongoDBScratch.git"
+  },
+  "author": "leeroy.egli",
+  "license": "ISC",
+  "homepage": "https://github.com/leeroyegli/MongoDBScratch#readme"
+}

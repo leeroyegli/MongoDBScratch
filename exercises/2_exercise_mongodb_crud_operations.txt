@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------
+AUFGABE 1
+
+db.employees.find({ "name.middle" : $exists: true });
+---------------------------------------------------------------------------------
+AUFGABE 2
+
+Der Filter ist kein JSON, sondern ein JS-Objekt.
+---------------------------------------------------------------------------------
+AUFGABE 3
+Der Operator $unset wird verwendet, um ein entsprechendes Feld aus dem Dokument zu entfernen.
+
+db.employees.update({ _id: ObjectId('xy')}, { "name.middle" $unset: ''})
+---------------------------------------------------------------------------------
+AUFGABE 4
+Wenn ein Index mit '1' indexiert wird, ist die Sortierung des Indexes aufsteigend.
+Wenn ein Index mit '-1' indexiert wird, ist die Sortierung des Indexes absteigend.
+---------------------------------------------------------------------------------

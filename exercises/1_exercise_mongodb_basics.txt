@@ -1,0 +1,36 @@
+MongoDB bietet auf diversen Objekten eine Hilfsmethode namens 'help()' an.
+Beim Aufruf dieser Hilfmethode werden alle zur Verfügung stehenden Methoden angezeigt, welche es auf diesem Objekt gibt.
+
+---------------------------------------------------------------------------------
+Beispiele (ausgefüehrt im MongoDB Compass)
+-> db.help
+-> db.collection.help
+-> db.employees.find().help
+---------------------------------------------------------------------------------
+Beispiel-Ausgabe der Hilfsmethode (Achtung: Unvollständig)
+...
+...
+aggregate	        Calculates aggregate values for the data in a collection or a view.
+bulkWrite	        Performs multiple write operations with controls for order of execution.
+count	            Returns the count of documents that would match a find() query for the collection or view.
+countDocuments	    Returns the count of documents that match the query for a collection or view.
+deleteMany	        Removes all documents that match the filter from a collection.
+deleteOne	        Removes a single document from a collection.
+distinct	        Finds the distinct values for a specified field across a single collection or view and returns the results in an array.
+find	            Selects documents in a collection or view.
+findAndModify	    Modifies and returns a single document.
+findOne	Selects     documents in a collection or view.
+renameCollection	Renames a collection.
+findOneAndDelete	Deletes a single document based on the filter and sort criteria, returning the deleted document.
+findOneAndReplace	Modifies and replaces a single document based on the filter and sort criteria.
+findOneAndUpdate	Updates a single document based on the filter and sort criteria.
+insert	            Inserts a document or documents into a collection.
+insertMany	        Inserts multiple documents into a collection.
+insertOne	        Inserts a document into a collection.
+updateMany	        Updates all documents that match the specified filter for a collection.
+updateOne	        Updates a single document within the collection based on the filter.
+createIndexes	    Creates one or more indexes on a collection
+createIndex	        Creates one index on a collection
+...
+...
+---------------------------------------------------------------------------------

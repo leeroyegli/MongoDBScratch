@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------------
+AUFGABE 1
+
+Die Verbindung wird erneut aufgebaut, da es sich beim der connect()-Methode um eine Pool handelt, welcher
+ob eine bestehende Verbindung erneut wiederverwendet wird oder bei einer Wiederherstellung sich erneut verbindet.
+---------------------------------------------------------------------------------
+AUFGABE 2
+
+Falls der Datenbankserver für eine kurze Zeit nicht erreichbar ist, wird die Verbindung automatisch wiederhergestellt.
+Wenn die Verbindung über einen längeren Zeitraum unterbrochen ist, so ist ein Neustart des Servers nötigt.
+---------------------------------------------------------------------------------
+AUFGABE 3
+
+In diesem Fall kann die Methode limit() verwendet werden. Diese Methode beschränkt die Rückgabe. 
+
+Falls eine Pagination clientseitig implementiert werden soll, so kann die Methode skip() verwendet werden,
+um anzugeben, ab und bis zu welchem Objekt beschränkt werden soll.
+
+Es gibt teilweise das Szenario, dass bekannt ist, dass clientseitig mit grösseren Datenmengen umgegangen werden muss.
+Hierbei bietet sich die Methoden hasNext() und next() an. Mit Hilfe dieser Methodik kann serverseitig mit einzlenen Objekte umgegangen werden
+und das Ergebnis an den Client gesendet werden. So ist die Kommunikation zwischen Client und Server nicht durch Monoliten-List-Objekte benachteiligt.
+
+---------------------------------------------------------------------------------
